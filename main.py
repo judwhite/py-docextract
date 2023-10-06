@@ -14,7 +14,7 @@ def main():
     tag_hdr = "TAG"
     dep_hdr = "DEP"
     lemma_hdr = "Lemma"
-    dash_tbl = "-"
+    dash_tbl = "="
     print(f"{text_hdr:<14} | {pos_hdr:<7} | {tag_hdr:<10} | {dep_hdr:<10} | {lemma_hdr:<14}")
     print(f"{dash_tbl:-<14}-|-{dash_tbl:-<7}-|-{dash_tbl:-<10}-|-{dash_tbl:-<10}-|-{dash_tbl:-<14}")
     for token in doc:
